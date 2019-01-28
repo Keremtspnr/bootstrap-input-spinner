@@ -129,9 +129,9 @@
                     updateInput = true
                 }
                 if (isNaN(newValue) || newValue === "") {
-                    $original[0].value = ""
+                    $original[0].value = 1
                     if (updateInput) {
-                        $input[0].value = ""
+                        $input[0].value = 1
                     }
                     value = 0
                 } else {
